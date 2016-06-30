@@ -12,9 +12,10 @@ The following commands will clone this repository, copy the
 source files to your HEN_HOUSE, and recompile the egs_autoenvelope &
 egs_glib libraries.
 
-git clone https://github.com/clrp-code/egspp-geometry-lib-extras.git
-cd egspp-geometry-lib-extras
-make install
+
+    git clone https://github.com/clrp-code/egspp-geometry-lib-extras.git
+    cd egspp-geometry-lib-extras
+    make install
 
 
 Libraries Included
