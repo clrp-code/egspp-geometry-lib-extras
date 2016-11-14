@@ -4,7 +4,7 @@ GZSTREAM_SRCS=$(wildcard gzstream/gzstream.*)
 copy:
 	cp -v ${SOBOL_SRCS} $(HEN_HOUSE)egs++/geometry/egs_autoenvelope
 	cp -v ${GZSTREAM_SRCS} $(HEN_HOUSE)egs++/geometry/egs_autoenvelope
-	cp -v ${GZSTREAM_SRCS} $(HEN_HOUSE)egs++/geometry/egs_glib
+	cp -v ${GZSTREAM_SRCS} $(HEN_HOUSE)egs++/geometry/egs_nd_geometry
 
 compile:
 	cd $(HEN_HOUSE)egs++/geometry/egs_autoenvelope/ && make && cd -
